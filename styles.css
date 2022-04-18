@@ -1,0 +1,9 @@
+@media (max-width: 640px) {
+    input{
+        width: 50%;
+    }
+
+    button {
+        width: 40%;
+    }
+}
