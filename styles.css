@@ -7,3 +7,8 @@
         width: 40%;
     }
 }
+
+.error {
+    display: none;
+    color: red;
+}

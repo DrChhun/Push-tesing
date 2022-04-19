@@ -26,9 +26,14 @@
       <p class="text-center text-base mt-5">Subscribe and get notified</p>
     </div>
     <div class="main__input mt-10">
-      <form action="">
-        <input class="shadow-xl rounded-full border-solid border-2 px-6 py-4 md:px-20" placeholder="Your email address..." type="email">
-       <button class="bg-blue-600 rounded-full  px-4 py-4 text-white xl:px-8" type="submit">Notify Me</button>
+      <form action="" class="flex">
+        <div class="flex flex-col mr-5">
+          <input class="shadow-xl rounded-full border-solid border-2 px-6 py-4 md:px-20" placeholder="Your email address..." type="email">
+          <div class="error text-center mt-3">lease provide a valid email address</div>
+        </div>
+
+        <button class="bg-blue-600 h-full rounded-full  px-4 py-4 text-white xl:px-8" type="submit">Notify Me</button>
+
       </form>
     </div>
     <div class="main__illu mt-10 xl:w-1/2 lg:w-2/3 md:w-2/3">
@@ -46,4 +51,5 @@
     </p>
   </footer>
 </body>
+<script src="app.js"></script>
 </html>
